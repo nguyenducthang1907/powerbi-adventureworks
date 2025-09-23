@@ -57,9 +57,3 @@ This project demonstrates my ability to:
 Build complete BI solutions from raw data to actionable insights
 Communicate findings visually to support decision-making
 Apply advanced analytics (YoY, RFM, KPIs) to generate business recommendations
-
-📂 Project Structure
-📁 powerbi-adventureworks
- ┣ 📄 AdventureWorks.pbix   # Power BI Dashboard file
- ┣ 📄 README.md             # Project documentation
- ┗ 📁 data/                 # Raw dataset from Kaggle
