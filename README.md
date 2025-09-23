@@ -5,8 +5,9 @@
 🔹 Showcased business intelligence and data visualization skills for portfolio and career growth.
 
 **Adventure Works Sales & Operations Dashboard (Power BI Project)**
+
 📌 Project Overview
-This project analyzes the Adventure Works dataset (from Kaggle) using Power BI.
+This project analyzes the Adventure Works dataset (from Kaggle) using Power BI (https://www.kaggle.com/datasets/ukveteran/adventure-works?resource=download).
 The dashboard provides insights into sales performance, customer behavior, revenue trends, and inventory management, demonstrating skills in data cleaning, modeling, and visualization.
 
 🛠 Tools & Technologies
