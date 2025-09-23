@@ -53,6 +53,7 @@ DAX: Measures for YoY growth, profitability, return rates, and RFM scoring
 Visualization: Interactive dashboards with slicers for year, region, and product
 
 🚀 Project Impact
+
 This project demonstrates my ability to:
 Build complete BI solutions from raw data to actionable insights
 Communicate findings visually to support decision-making
