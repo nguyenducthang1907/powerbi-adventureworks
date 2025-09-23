@@ -1,68 +1,65 @@
-**🌟 Project Highlights**
-🔹 Built an interactive Power BI dashboard using the Adventure Works dataset from Kaggle.
-🔹 Applied Power Query, DAX, and data modeling to transform raw data into actionable insights.
-🔹 Delivered executive-level reports on sales, customer behavior, and inventory management.
-🔹 Showcased business intelligence and data visualization skills for portfolio and career growth.
+📊 Adventure Works Sales & Operations Dashboard (Power BI Project)
+🌟 Project Highlights
 
-**Adventure Works Sales & Operations Dashboard (Power BI Project)**
+🔹 Built an interactive Power BI dashboard using the Adventure Works dataset from Kaggle
+🔹 Applied Power Query, DAX, and data modeling to transform raw data into actionable insights
+🔹 Delivered executive-level reports on sales, customer behavior, and inventory management
+🔹 Showcased business intelligence and data visualization skills for portfolio and career growth
 
-📌 Project Overview
-This project analyzes the Adventure Works dataset (from Kaggle) using Power BI (https://www.kaggle.com/datasets/ukveteran/adventure-works?resource=download).
-The dashboard provides insights into sales performance, customer behavior, revenue trends, and inventory management, demonstrating skills in data cleaning, modeling, and visualization.
+📌 Executive Summary
+Using the Adventure Works dataset, I designed an end-to-end Power BI dashboard that turns raw data into actionable insights.
+The dashboard highlights sales performance, profitability, returns, and customer segmentation, enabling clear business monitoring and strategic decision-making.
+<img width="1429" height="718" alt="image" src="https://github.com/user-attachments/assets/01efecbe-3113-488e-840c-c55444ccfa93" />
 
-🛠 Tools & Technologies
+📊 Key Insights
+💰 Revenue & Profitability
+Total Revenue: $24.15M | Total Profit: $10.14M
+YoY Growth: +166% overall, with the United Kingdom leading at +213%
 
-Power BI (Dashboard & Data Modeling)
-Power Query (ETL: extract, transform, load)
-DAX (Data Analysis Expressions)
-Dataset: Adventure Works on Kaggle
+🌍 Regional Performance
 
-📊 Dashboard Features
+Top contributors: United States ($3.27M profit) and Australia ($2.98M profit)
+Europe (France, Germany, UK) shows strong YoY growth (>200%), signaling expansion opportunities
 
-Executive Summary
-Total Sales, Profit, Orders, Customers
-YoY Growth trends
-Sales Analysis
-Sales by Region, Product Category, and Subcategory
+🚲 Product Performance
+Best-selling products are premium bikes (Mountain-200 Black & Silver), each generating >$1.1M revenue
 
-Top-performing products
+🔄 Returns Analysis
+<img width="1244" height="720" alt="image" src="https://github.com/user-attachments/assets/df86eb96-9e3c-4b3c-85e2-2211c0fea0e4" />
 
-Customer Insights
+Overall return rate: 2.17%
+Power_BI_LV2
+Highest returns: United States (633 items)
+Most returned products: Water Bottle 30oz, Patch Kits, Helmets
 
-Top Customers by revenue
-New vs. Returning Customers
-Inventory & Operations
-Stock levels vs. Reorder levels
-Forecasted demand
+👥 Customer Segmentation (RFM Analysis)
+<img width="1239" height="708" alt="image" src="https://github.com/user-attachments/assets/30b3e503-d30e-492e-b326-230d26abae6c" />
 
-⚙️ Data Model
+New Customers: 88% of total
+Champions: Only 5% but highly valuable
+Opportunities: retain “At Risk” customers & nurture Potential Loyalists
 
-Fact Tables: Sales, Orders, Inventory
-Dimension Tables: Customers, Products, Employees, Date
-Relationships established to support star schema modeling.
+🎯 Recommendations
 
-📈 DAX Measures (Examples)
-Total Sales = SUMX(Sales, Sales[Quantity] * Sales[UnitPrice] * (1 - Sales[Discount]))
+Expand in high-growth markets (UK, Germany) where YoY growth >200%
+Leverage best-sellers (Mountain bikes) in marketing & cross-sell campaigns
+Reduce product returns by improving accessories (bottles, patch kits)
+Strengthen retention programs for “At Risk” and “About to Sleep” customers
 
-Total Orders = COUNTROWS(Sales)
-Avg Order Value = [Total Sales] / [Total Orders]
+🛠 Technical Skills Demonstrated
+Data Preparation: Power Query for ETL (cleaning, transformation)
+Data Modeling: Star schema with fact & dimension tables
+DAX: Measures for YoY growth, profitability, return rates, and RFM scoring
+Visualization: Interactive dashboards with slicers for year, region, and product
 
-🚀 How to Use
-
-Open the .pbix file in Power BI Desktop.
-
-Interact with dashboards using filters and slicers.
-
-🔍 Insights Gained
-
-Identified top revenue-generating products and regions with highest sales.
-
-Found customer segments contributing to recurring revenue.
-
-Monitored inventory risks (low stock vs. reorder level).
+🚀 Project Impact
+This project demonstrates my ability to:
+Build complete BI solutions from raw data to actionable insights
+Communicate findings visually to support decision-making
+Apply advanced analytics (YoY, RFM, KPIs) to generate business recommendations
 
 📂 Project Structure
 📁 powerbi-adventureworks
- ┣ 📄 AdventureWorks.pbix
- ┣ 📄 README.md
- ┗ 📁 data (raw dataset from Kaggle)
+ ┣ 📄 AdventureWorks.pbix   # Power BI Dashboard file
+ ┣ 📄 README.md             # Project documentation
+ ┗ 📁 data/                 # Raw dataset from Kaggle
